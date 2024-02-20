@@ -1,0 +1,280 @@
+name: jobfinder
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - image/BTN.jpeg
+    - image/9_41.png
+    - image/Mobile Signal.jpeg
+    - image/Status bar.jpeg
+    - image/Freelancer-amico 1.jpeg
+    - image/Find a Perfact Job Match.jpeg
+    - image/Finding your dream job is more easire and faster with JobHub.jpeg
+    - image/signup/Welcome Back!.png
+    - image/signup/Fill your details or continue with social media.png
+    - image/signup/Email.png
+    - image/signup/Message.png
+    - image/signup/Password.png
+    - image/signup/Forget Password_.png
+    - image/signup/Lock-icon.png
+    - image/signup/Google.png
+    - image/signup/Facebook.png
+    - image/signup/Eye-slash.png
+    - image/signup/BTN.png
+    - image/signin/Group.png
+    - image/signin/BTN.png
+    - image/signin/Union.png
+    - assets/design/images/left-side.png
+    - assets/design/images/auto-group-gqyi.png
+    - assets/design/images/wifi.png
+    - assets/design/images/spotify.png
+    - assets/design/images/battery.png
+    - assets/design/images/facebook.png
+    - assets/design/images/profile.png
+    - assets/design/images/home.png
+    - assets/design/images/wifi-fXi.png
+    - assets/design/images/facebook-WEQ.png
+    - assets/design/images/wifi-VTA.png
+    - assets/design/images/wifi-pya.png
+    - assets/design/images/wifi-vLL.png
+    - assets/design/images/left-side-ycg.png
+    - assets/design/images/eye-slash.png
+    - assets/design/images/auto-group-bsbe.png
+    - assets/design/images/message.png
+    - assets/design/images/love.png
+    - assets/design/images/arrow-right.png
+    - assets/design/images/spotify-irQ.png
+    - assets/design/images/icon-search.png
+    - assets/design/images/phone-call.png
+    - assets/design/images/rectangle.png
+    - assets/design/images/auto-group-npgc.png
+    - assets/design/images/menu.png
+    - assets/design/images/setting.png
+    - assets/design/images/chat.png
+    - assets/design/images/massage.png
+    - assets/design/images/logo.png
+    - assets/design/images/union.png
+    - assets/design/images/google.png
+    - assets/design/images/group.png
+    - assets/design/images/home-7Re.png
+    - assets/design/images/spotify-D6c.png
+    - assets/design/images/left-side-1zk.png
+    - assets/design/images/love-Zbi.png
+    - assets/design/images/auto-group-a5de.png
+    - assets/design/images/message-K8g.png
+    - assets/design/images/auto-group-epzp.png
+    - assets/design/images/battery-2Yt.png
+    - assets/design/images/group-doz.png
+    - assets/design/images/left-side-wJt.png
+    - assets/design/images/left-side-QYU.png
+    - assets/design/images/adjust-horizontal-alt.png
+    - assets/design/images/eye-slash-4gk.png
+    - assets/design/images/facebook-oJt.png
+    - assets/design/images/battery-eGC.png
+    - assets/design/images/lock-icon.png
+    - assets/design/images/lock-icon-5cx.png
+    - assets/design/images/group-htQ.png
+    - assets/design/images/freelancer-amico-1.png
+    - assets/design/images/battery-9uv.png
+    - assets/design/images/google-hek.png
+    - assets/design/images/auto-group-kwcc.png
+    - assets/design/images/setting-dZW.png
+    - assets/design/images/location.png
+    - assets/design/images/icon.png
+    - assets/design/images/wifi-1wi.png
+    - assets/design/images/google-YEp.png
+    - assets/design/images/battery-3Ve.png
+    - assets/design/images/trash.png
+    - assets/design/images/facebook-mmW.png
+    - assets/design/images/battery-bSk.png
+    - assets/design/images/profile-8xU.png
+    - assets/design/images/chat-TMN.png
+    - assets/design/images/left-side-hFa.png
+    - assets/design/images/send.png
+    - assets/design/images/battery-7u6.png
+    - assets/design/images/left-side-uyv.png
+    - assets/design/images/love-oa4.png
+    - assets/design/images/auto-group-ctvc.png
+    - assets/design/images/wifi-uhN.png
+    - assets/design/images/more-vertical.png
+    - assets/design/images/facebook-fA4.png
+    - assets/design/images/switch-off.png
+    - assets/design/images/add-image.png
+    - assets/design/images/switch-off-s88.png
+    - assets/design/images/facebook-u1W.png
+    - assets/design/images/auto-group-mkh6.png
+    - assets/design/images/down-small.png
+    - assets/design/images/facebook-8W8.png
+    - assets/design/images/battery-DNU.png
+    - assets/design/images/icon-logout.png
+    - assets/design/images/chevron-left.png
+    - assets/design/images/.png
+    - assets/design/images/wifi-Dgg.png
+    - assets/design/images/auto-group-tsw8.png
+    - assets/design/images/facebook-SEY.png
+    - assets/design/images/auto-group-w3vc.png
+    - assets/design/images/icon-history.png
+    - assets/design/images/facebook-EdS.png
+    - assets/design/images/battery-gVz.png
+    - assets/design/images/facebook-Cvp.png
+    - assets/design/images/auto-group-mdhn.png
+    - assets/design/images/facebook-Gr8.png
+    - assets/design/images/auto-group-bb5w.png
+    - assets/design/images/auto-group-swrw.png
+    - assets/design/images/wifi-5F2.png
+    - assets/design/images/auto-group-5yrw.png
+    - assets/design/images/left-side-QWp.png
+    - assets/design/images/left-side-iK6.png
+    - assets/design/images/wifi-jUQ.png
+    - assets/design/images/left-side-94G.png
+    - assets/design/images/more-horizontal.png
+    - assets/design/images/icon-user.png
+    - assets/design/images/location-uY8.png
+    - assets/design/images/love-g6G.png
+    - assets/design/images/auto-group-t55n.png
+    - assets/design/images/auto-group-uegc.png
+    - assets/design/images/more-vertical-Xrk.png
+    - assets/design/images/love-E6G.png
+    - assets/design/images/switch-off-oU8.png
+    - assets/design/images/adjust-horizontal-alt-nKN.png
+    - assets/design/images/love-QCL.png
+    - assets/design/images/switch-off-hm6.png
+    - assets/design/images/battery-STn.png
+    - assets/design/images/ant-design-clock-circle-outlined.png
+    - assets/design/images/wifi-vNx.png
+    - assets/design/images/auto-group-ekts.png
+    - assets/design/images/battery-xqS.png
+    - assets/design/images/left-side-L36.png
+    - assets/design/images/battery-Hdn.png
+    - assets/design/images/more-vertical-uTS.png
+    - assets/design/images/switch-off-yoz.png
+    - assets/design/images/battery-Tec.png
+    - assets/design/images/love-grg.png
+    - assets/design/images/switch-off-psN.png
+    - assets/design/images/chevron-left-2yS.png
+    - assets/design/images/facebook-EZi.png
+    - assets/design/images/mic.png
+    - assets/design/images/rotation.png
+    - assets/design/images/left-side-Ne8.png
+    - assets/design/images/battery-xJg.png
+    - assets/design/images/battery-kKe.png
+    - assets/design/images/down-small-kyA.png
+    - assets/design/images/left-side-YHJ.png
+    - assets/design/images/more-vertical-b6U.png
+    - assets/design/images/icon-settings.png
+    - assets/design/images/wallet.png
+    - assets/design/images/fill-244.png
+    - assets/design/images/left-side-KjA.png
+    - assets/design/images/left-side-2UU.png
+    - assets/design/images/home-5-bg.png
+    - assets/design/images/video.png
+    - assets/design/images/wifi-SVJ.png
+    - assets/design/images/auto-group-xnha.png
+    - assets/design/images/down-small-Aon.png
+    - assets/design/images/end.png
+    - assets/design/images/down-small-FEk.png
+    - assets/design/images/auto-group-a516.png
+    - assets/design/images/auto-group-g5jr.png
+    - assets/design/images/wifi-94Q.png
+    - assets/design/images/wifi-RGp.png
+    - assets/design/images/wifi-96C.png
+    - assets/design/images/icon-heart.png
+    - assets/design/images/ellipse-110-bg.png
+    - assets/design/images/home-3.png
+    - assets/design/images/search-2-bg.png
+    - assets/design/images/derick-mckinney-bbuujb98ppy-unsplash-1.png
+    - assets/design/images/avatar-bg.png
+    - assets/design/images/avatar-bg-cmA.png
+    - assets/design/images/charlie-green-3jmfencl24m-unsplash-1-bg.png
+    - assets/design/images/rectangle-382.png
+    - assets/design/images/avatar-bg-v5a.png
+    - assets/design/images/avatar-bg-jZN.png
+    - assets/design/images/rectangle-382-qcQ.png
+    - assets/design/images/avatar-bg-S6g.png
+    - assets/design/images/avatar-bg-noE.png
+    - assets/design/images/rectangle-382-CjE.png
+    - assets/design/images/avatar-bg-BiC.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
