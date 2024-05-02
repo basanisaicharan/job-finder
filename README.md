@@ -19,3 +19,5 @@ samples, guidance on mobile development, and a full API reference.
 use this command - flutter run
 
 use the pixel 7 pro emmulator for better view of app
+<h1>Descrpition</h1>
+The Job Finder app is designed to provide users with a seamless and intuitive experience in exploring job opportunities. With a clean and modern interface, users can easily navigate through the app to discover available job listings tailored to their preferences and qualifications.
